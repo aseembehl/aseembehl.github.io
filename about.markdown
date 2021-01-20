@@ -9,7 +9,7 @@ permalink: /about/
 
 
 Aseem Behl is interested in researching ideas at the intersection of technology and business. 
-He constributes to teaching and research at the School of Business and Economics at the University of Tübingen.
+He contributes to teaching and research at the School of Business and Economics at the University of Tübingen.
 
 </p>
 
