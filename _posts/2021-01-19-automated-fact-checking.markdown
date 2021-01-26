@@ -5,7 +5,7 @@ date:   2021-01-19 20:23:36 +0100
 categories: technology
 ---
 
-Idea arises from the recent work titled Catching Out-of-Context Misinformation with Self-supervised Learning by Aneja et al. 
+Idea arises from the very exciting recent work titled Catching Out-of-Context Misinformation with Self-supervised Learning by Aneja et al. 
 
 They propose a simple handcrafted rule to detect images where
 two captions align with same object(s) in the image; but semantically convey different meanings, then the image with
@@ -42,9 +42,13 @@ Similarly, they compute textual overlap S<sub>sim</sub> using pre-trained Senten
 t, it implies that the two captions are semantically different, thus implying that image is used out of context.
 
 
+An interesting extension in this direction would be to train multimodal networks to directly predict an alignment score given an image and a caption as input.This avoids the need of intermediate object detections and therefore the network can learn to use image regions outside the object boxes for alignment with the caption. 
+Moreover, this allows us to also have fewer hand designed hyperparameters such as top k bounding boxes at the inference stage. 
 
-
-
+Supervised Multimodal Bitransformers for Classifying Images and Text by Kiela et al. could be potentialy used to learn to predict the image caption alignment score directly.
+It has unimodally pretrained models that are simple and easy to adapt, i.e., it is straightforward to replace the text or image encoders with better alternatives and directly finetune,
+without requiring multimodal retraining. Furthermore, their method does not rely on a particular feature extraction pipeline since it does not require e.g.
+region or bounding box proposals, and is modality agnostic: it works for any sequence of dense vectors. 
 
 
 
