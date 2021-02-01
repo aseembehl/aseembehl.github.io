@@ -5,11 +5,11 @@ date:   2021-01-19 20:23:36 +0100
 categories: technology
 ---
 
-Idea arises from the very exciting recent work titled Catching Out-of-Context Misinformation with Self-supervised Learning by Aneja et al. 
+<p style='text-align: justify;'> Idea arises from the very exciting recent work titled Catching Out-of-Context Misinformation with Self-supervised Learning by Aneja et al. 
 
 They propose a simple handcrafted rule to detect images where
 two captions align with same object(s) in the image; but semantically convey different meanings, then the image with
-its two captions is classified as having conflicting-image captions. 
+its two captions is classified as having conflicting-image captions. </p>
 
 <img src="/assets/fact_check_teaser.jpg" alt="fact_check_teaser" style="float: left; margin: 0 1.5em 15px 0; min-width: 150px; max-width: 100%" />
 Here, both captions align with same object(s) in the image; i.e., Donald Trump and Angela Merkel
@@ -20,7 +20,7 @@ other (right), they consider them as out of context; otherwise not (left).
 
 
 <img src="/assets/fact_check_train.jpg" alt="fact_check_train" style="float: left; margin: 0 1.5em 15px 0; min-width: 150px; max-width: 100%" />
-The objective during training is to obtain higher scores for aligned image-text pairs (i.e., if an image appeared with the text irrespective of the context) than misaligned image-text pairs
+<p style='text-align: justify;'> The objective during training is to obtain higher scores for aligned image-text pairs (i.e., if an image appeared with the text irrespective of the context) than misaligned image-text pairs
 (i.e., some randomly-chosen text which did not appear with the image). 
 
 To this end, they formulate a scoring function to align objects in the image with the caption. Intuitively, an image-caption pair should have a high
@@ -32,26 +32,31 @@ which object(s) were selected to make that decision, thus
 providing spatial knowledge. -->
 
 The resulting Image-Text matching model obtained from
-training, as described above, provides an accurate representation of how likely a caption aligns with an image.
+training, as described above, provides an accurate representation of how likely a caption aligns with an image.</p>
 
 <img src="/assets/fact_check_test.jpg" alt="fact_check_test" style="float: left; margin: 0 1.5em 15px 0; min-width: 150px; max-width: 100%" />
-At test time they take as input an image and two captions; they then use the trained Image-Text Matching model where
+<p style='text-align: justify;'> At test time they take as input an image and two captions; they then use the trained Image-Text Matching model where
 they first pick the top k bounding boxes and check the overlap for each of the k boxes for
 caption<sub>1</sub> with each of the k boxes from caption<sub>2</sub>. If IoU for any such pair > threshold t, they infer that image regions overlap.
-Similarly, they compute textual overlap S<sub>sim</sub> using pre-trained Sentence Similarity model and if S<sub>sim</sub> < threshold
+Similarly, they compute textual overlap S<sub>sim</sub> using pre-trained Sentence Similarity model and if S<sub>sim</sub> > threshold
 t, it implies that the two captions are semantically different, thus implying that image is used out of context.
 
+<br> 
+<br> 
 
-An interesting extension in this direction would be to train multimodal networks to directly predict an alignment score given an image and a caption as input.This avoids the need of intermediate object detections and therefore the network can learn to use image regions outside the object boxes for alignment with the caption. 
-Moreover, this allows us to also have fewer hand designed hyperparameters such as top k bounding boxes at the inference stage. 
+
+I am curious how well would multimodal networks trained to directly predict an alignment score given an image and a caption as input work on this problem.
+This would avoid the need of intermediate object detection predictions and therefore the network can learn to use image regions outside the object boxes for alignment with the caption.
+The advantage of the hand designed alignement metric is not obvious to me. 
+Moreover, this allows us to also have fewer hand designed hyperparameteres such as top k bounding boxes at the inference stage.
+
+<br> 
+<br> 
 
 Supervised Multimodal Bitransformers for Classifying Images and Text by Kiela et al. could be potentialy used to learn to predict the image caption alignment score directly.
 It has unimodally pretrained models that are simple and easy to adapt, i.e., it is straightforward to replace the text or image encoders with better alternatives and directly finetune,
 without requiring multimodal retraining. Furthermore, their method does not rely on a particular feature extraction pipeline since it does not require e.g.
-region or bounding box proposals, and is modality agnostic: it works for any sequence of dense vectors. 
-
-
-
+region or bounding box proposals, and is modality agnostic: it works for any sequence of dense vectors. </p>
 
 
 
