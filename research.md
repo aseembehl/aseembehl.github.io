@@ -1,5 +1,5 @@
 # Autonomous Driving
 
-# Structered Prediction
+# Structured Prediction
 
 # Natural Language Processing
