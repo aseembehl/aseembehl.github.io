@@ -15,4 +15,8 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2020
 *Aseem Behl, CV Jawahar, M Pawan Kumar*\
 Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition 2014
 
+* **Learning to rank using high-order information**\
+*Puneet Kumar Dokania, Aseem Behl, CV Jawahar, M Pawan Kumar*\
+European Conference on Computer Vision 2014
+
 ## Natural Language Processing
