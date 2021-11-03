@@ -1,6 +1,6 @@
 ## About
 
-Aseem Behl is interested in researching ideas at the intersection of machine learning and business. He contributes to teaching and research at the School of Business and Economics at the University of Tübingen.
+Hi, I am Aseem Behl, I am a member of the teaching and research staff at the School of Business and Economics, University of Tübingen. My research interest include  deriving business intelligence using visual and textual information.
 
 * [Teaching](./teaching.html)
 * [Research](./research.html)
