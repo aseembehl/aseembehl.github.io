@@ -1,6 +1,6 @@
 # Research
 
-## Autonomous Driving
+## Computer Vision
 
 * **Computer vision for autonomous vehicles: Problems, datasets and state of the art**\
 *Joel Janai, Fatma Güney, Aseem Behl, Andreas Geiger*\
