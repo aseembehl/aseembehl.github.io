@@ -1,5 +1,10 @@
 # Research
 
+## Marketing
+* **Understanding Fashion Product Sales Using Product Images and Convolutional Neural Networks**\
+*Daniela Mast, Stefan Mayer, Aseem Behl, Dominik Papies*\
+European Marketing Academy Conference (EMAC) 2022
+
 ## Computer Vision
 
 * **Computer vision for autonomous vehicles: Problems, datasets and state of the art**\
