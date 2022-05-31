@@ -1,11 +1,11 @@
 # Research
 
-## Marketing
+## Machine Learning for Marketing
 * **Understanding Fashion Product Sales Using Product Images and Convolutional Neural Networks**\
 *Daniela Mast, Stefan Mayer, Aseem Behl, Dominik Papies*\
 European Marketing Academy Conference (EMAC) 2022
 
-## Computer Vision
+## Computer Vision for Autonomous Vehicles
 
 * **Computer vision for autonomous vehicles: Problems, datasets and state of the art**\
 *Joel Janai, Fatma Güney, Aseem Behl, Andreas Geiger*\
@@ -31,7 +31,7 @@ Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognitio
 *Aseem Behl, Omid Hosseini Jafari, Siva Karthik Mustikovela, Hassan Abu Alhaija, Carsten Rother, Andreas Geiger*\
 Proceedings of the IEEE International Conference on Computer Vision 2017
 
-## Structured Prediction
+## Machine Learning for Structured Prediction
 
 * **Optimizing average precision using weakly supervised data**\
 *Aseem Behl, CV Jawahar, M Pawan Kumar*\
