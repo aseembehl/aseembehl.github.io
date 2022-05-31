@@ -8,6 +8,11 @@ My name is Aseem Behl. I work as senior researcher [(Akademischer Rat)](https://
 ## Contact
 There are several ways of contacting me.
 
-* Address: Room 108, Nauklerstraße 47, 72074 Tübingen, Germany
-* E-Mail (work): *firstname* DOT *lastname* AT *uni-tuebingen* DOT *de*
-* E-Mail (personal): *firstname* DOT *lastname* AT *gmail* DOT *com*
+* Address 
+  * Room 108, Nauklerstraße 47, 72074 Tübingen, Germany
+* E-Mail (work)
+  * *firstname* DOT *lastname* AT *uni-tuebingen* DOT *de*
+* E-Mail (personal) 
+  * *firstname* DOT *lastname* AT *gmail* DOT *com*
+* LinkedIn 
+  * [Aseem Behl](https://www.linkedin.com/in/aseembehl/)
