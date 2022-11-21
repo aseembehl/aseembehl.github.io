@@ -8,7 +8,7 @@ European Marketing Academy Conference (EMAC) 2022
 ## Natural Language Processing
 * **Explaining Relationships Between Academic Documents Using Generative Transformer Models**\
 *Tim-Moritz Bundert, Aseem Behl*\
-International Conference on Natural Language Processing 2011
+Arxiv 2022
 
 * **A Corpus Linguistic Study of Bollywood Song Lyrics in the Framework of Complex Network Theory**\
 *Aseem Behl, Monojit Choudhury*\
