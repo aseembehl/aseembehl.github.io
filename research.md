@@ -5,6 +5,15 @@
 *Daniela Mast, Stefan Mayer, Aseem Behl, Dominik Papies*\
 European Marketing Academy Conference (EMAC) 2022
 
+## Natural Language Processing
+* **Explaining Relationships Between Academic Documents Using Generative Transformer Models**\
+*Tim-Moritz Bundert, Aseem Behl*\
+International Conference on Natural Language Processing 2011
+
+* **A Corpus Linguistic Study of Bollywood Song Lyrics in the Framework of Complex Network Theory**\
+*Aseem Behl, Monojit Choudhury*\
+International Conference on Natural Language Processing 2011
+
 ## Computer Vision for Autonomous Vehicles
 
 * **Computer vision for autonomous vehicles: Problems, datasets and state of the art**\
@@ -40,8 +49,3 @@ Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition 20
 * **Learning to rank using high-order information**\
 *Puneet Kumar Dokania, Aseem Behl, CV Jawahar, M Pawan Kumar*\
 European Conference on Computer Vision 2014
-
-## Natural Language Processing
-* **A Corpus Linguistic Study of Bollywood Song Lyrics in the Framework of Complex Network Theory**\
-*Aseem Behl, Monojit Choudhury*\
-International Conference on Natural Language Processing 2011
